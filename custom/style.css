@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  min-width: 1000px;
+  font-family: sans-serif;
+}
+
+.inner {
+  width: 1000px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+
+header {
+  color: #000;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  background: url("img/90.jpeg") center / cover no-repeat;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.8em;
+}
+
+section p {
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+#first {
+  width: 100%;
+  background-color: #d2f0cd;
+  background-image: url("img/images-2.jpeg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 250px) center; 
+  background-size: 330px auto;
+}
+
+#first .inner {
+  width: 1000px;
+  padding-left: 420px; 
+}
+
+#first .sub-title {
+  margin-bottom: 1.2em;
+}
+
+#first p {
+  margin: 0.8em 0;
+}
+
+
+#second {
+  background-color: #f2f2f2; 
+  padding-bottom: 80px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#second .inner {
+  text-align: center;
+}
+
+#second p {
+  margin-bottom: 2em;
+  text-align: left; 
+}
+
+#second img {
+  width: 520px;
+  margin: 0 auto;
+}
+
+
+#third {
+  width: 100%;
+  background-color: #d2f0cd;
+  background-image: url("img/mtfuji.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 250px) center; 
+  background-size: 330px auto;
+}
+
+#third .inner {
+  width: 1000px;
+  padding-right: 420px; 
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.85rem;
+}
